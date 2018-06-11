@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PESEL</title>
+	<meta name="description" content="Program liczy wiek osoby na podstawie jej numeru PESEL" />
+	<meta name="keywords" content="PESEL, wiek" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="wrapper">
+			<h1>Wiek z numeru PESEL</h1>
+			<p class="info">Strona nie przechowuje ani nie wykorzystuje podanego numeru PESEL. Jeśli chcesz sprawdzić jak działa program, możesz skorzystać
+				z generatora numerów:
+				<a "target=_blank" href="http://generatory.it/">generator</a>
+			</p>
+			<p>Podaj PESEL</p>
+			<input type="text" name="quantity" class="pesel" autofocus="true">
+			<div class="message">format: 11-cyfr</div>
+			<p>Data urodzenia:</p>
+			<div>
+				<span class="bornDay"></span>
+				<span class="bornMonth"></span>
+				<span class="bornYear"></span>
+			</div>
+			<button class="calculate" type="button">Oblicz wiek</button>
+			<p>Właściciel PESELu ma:</p>
+			<div class="age"></div>
+			<div>
+				<span>Płeć: </span>
+				<span class="gender"></span>
+			</div>
+			<button class="clear" type="button">Wyczyść dane</button>
+		<footer>Copyright &#169; 2017 by
+			<a class="email" href="mailto:justynazofiakozub@gmail.com">Justyna Kozub</a>
+		</footer>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

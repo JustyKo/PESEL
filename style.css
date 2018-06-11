@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(227, 200, 223);
+    color: #654624;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wrapper {
+    width: 400px;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+.pesel {
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+}
+
+.age {
+    margin: 10px auto;
+    font-size: 24px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: crimson;
+}
+
+div button[type="button"] {
+    margin: 10px auto 20px;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    border-radius: 12px 12px;
+    color: rgb(227, 200, 223);
+    background-color: #654624;
+}
+
+footer {
+    color: #654624;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.email {
+    text-decoration: none;
+    color: #654624;
+}
+
+a.email:hover {
+    color: #654624;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .wrapper {
+        width: 98%;
+    }
+
+    .info {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding: 0;
+    }
+    
+    .pesel {
+        font-size: 22px;
+    }
+
+    .age {
+        font-size: 18px;
+    }
+
+    .message {
+        padding-top: 5px;
+        font-size: 16px;
+    }
+
+    div button[type="button"] {
+        font-size: 16px;
+        width: 120px;
+        height: 26px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
